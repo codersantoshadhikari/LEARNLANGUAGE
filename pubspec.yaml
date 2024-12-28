@@ -1,4 +1,4 @@
-name: learnportugueselanguage
+name: language_learning_ui
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -34,7 +34,10 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
-  audioplayers: ^6.1.0
+  flutter_icons: ^1.1.0
+  flutter_screenutil: ^5.0.0+2
+  flutter_svg: ^0.22.0
+  google_fonts: ^2.1.0
 
 dev_dependencies:
   flutter_test:
@@ -57,11 +60,5 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/images/numbers/
-    - assets/images/family_members/
-    - assets/images/colors/
-    - assets/sounds/numbers/
-    - assets/sounds/family_members/
-    - assets/sounds/colors/
-    - assets/sounds/phrases/
-  #   - images/a_dot_ham.jpeg
+    - assets/images/
+    - assets/svg/
